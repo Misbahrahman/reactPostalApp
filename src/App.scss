@@ -1,0 +1,39 @@
+.App {
+  input{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+  }
+  button{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+  }
+  .show{
+    margin: 10px;
+    input{
+      width: 300px;
+    }
+    .card{
+      border: 3px solid black;
+      padding: 20px;
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .grid_container{
+      display: grid;
+      gap:20px;
+      grid-template-columns: repeat(auto-fill, minmax(35%, 1fr)); /* Two cards per row */
+    }
+
+  }
+
+}
+
+
+
